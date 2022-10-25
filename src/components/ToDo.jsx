@@ -20,12 +20,8 @@ export default function ToDo () {
                 placeholder="type to do item here..."
                 onChange={event=>setInput(event.target.value)}
             />
-            <ul id="ul">
-
-            </ul>
-            <button onClick={addItem}>
-                Add Item
-            </button>
+            <button onClick={addItem}>Add Item</button>
+            <ul id="ul"></ul>
         </>
     )
 }
